@@ -11,6 +11,7 @@
 
     <target name="packaging">
         <mkdir dir="${dir.target.jar}" />
+        <mkdir dir="${dir.classes}" />
         <jar destfile="${dir.target.jar}/scouter-plugin-server-alert-telegram.jar">
             <fileset dir="${dir.classes}"/>
         </jar>
